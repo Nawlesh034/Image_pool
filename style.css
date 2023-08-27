@@ -1,0 +1,98 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Libre+Baskerville&family=Noto+Serif:wght@300&family=Roboto+Mono:wght@500&family=Roboto:wght@500&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Noto Serif', serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    box-sizing: border-box;
+}
+body{
+    line-height: 1.6;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#search-input{
+    padding: 5px 15px;
+    border: 25px;
+    box-shadow: 0 0 6px rgba(0,0,0,0.8);
+}
+#btn{
+    margin-left: 15px;
+    padding: 8px 15px;
+    border: none;
+    background-color: rgb(102, 239, 102);
+
+    color: white;
+    cursor: pointer;
+}
+#btn:hover{
+    box-shadow: 0 0 6px rgba(0,0,0,0.8);
+}
+.tab_1{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.image_1{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    /* height: 100%; */
+    width: 30%;
+    
+    margin-top: 56px;
+    transition: rotate 9ms ease-out;
+}
+.image_1:hover{
+   
+    rotate: 270deg;
+}
+.image_1 img{
+    height: 60%;
+    width: 60%;
+    overflow: hidden;
+    object-fit: cover;
+}
+.image_1 a{
+    text-decoration: none;
+    text-align:center;
+    font-size: 20px;
+    text-transform: capitalize;
+    display: block;
+    margin-right: 150px;
+    
+}
+.image_1:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+#show-more{
+   
+    border: none;
+    display: none;
+    margin-left: 44%;
+    background-color:rgb(102, 239, 102) ;
+    box-shadow: 0 0 6px rgba(0,0,0,0.8);
+    color: white;
+    padding: 7px 5px;
+    cursor: pointer;
+
+}
